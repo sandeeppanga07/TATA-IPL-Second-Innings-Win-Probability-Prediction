@@ -25,7 +25,7 @@ import pandas as pd
 with open( "iplmodel.pkl","rb") as f:
      model=pickle.load(open('iplmodel.pkl','rb'))
 
-df=pd.read_csv(r"C:\IPL Probability Prediction\TataIplcleaned.csv")
+df=pd.read_csv(r"TataIplcleaned.csv")
 
 st.title('IPL Win Predictor')
 st.text('Predicting IPL match winning in probability in eal time')
