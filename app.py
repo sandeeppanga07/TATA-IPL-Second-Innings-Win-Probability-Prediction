@@ -1,23 +1,3 @@
-# import streamlit as st
-# import pandas as pd
-# import pickle
-# with open( "iplmodel.pkl","rb") as f:
-#     model=pickle.load(f)
-# st.title("TATA IPL – Second-Innings Win Probability Prediction")
-# st.text("This project is going to find the probability of winning match")
-# df=pd.read_csv(r"C:\IPL Probability Prediction\TataIplcleaned.csv")
-# col1,col2=st.columns(2)
-# with col1:
-#     batting_team=st.selectbox("Selecting the batting team",df["batting_team"].unique())
-# with col2:
-#     bowling_team=st.selectbox("Selecting the bowling_team ",df["bowling_team"].unique())
-# city=st.selectbox("Selecting the city",df["city"].unique())
-# nums_left=st.number_input("Give the target runs",min_value=1,max_value=300)
-# st.divider()
-# col3,col4,col5,col6=st.columns(4)
-# with col3:
-#     wickets=st.number_input("wickets lose",min_value=0,max_value=9)
-
 #--------------------------------------------------------------------------------------------------------------------------------import streamlit as st
 import streamlit as st
 import pickle
